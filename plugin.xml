@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+		id="cordova-plugin-except-aws-s3-from-ats"
+		version="0.0.1">
+	<name>cordova-plugin-except-aws-s3-from-ats</name>
+	<description>Cordova plugin that excepts access to S3 from App Transport Security (iOS9)</description>
+	<license>Apache 2.0</license>
+	<keywords>cordova,phonegap,ats,aws,s3,policy</keywords>
+
+	<engines>
+		<engine name="cordova-ios" />
+	</engines>
+
+	<platform name="ios">
+		<config-file target="*-Info.plist" parent="NSAppTransportSecurity">
+			<dict>
+				<key>NSExceptionDomains</key>
+				<dict>
+					<key>s3.amazonaws.com</key>
+					<dict>
+						<key>NSIncludesSubdomains</key>
+						<true/>
+						<key>NSExceptionRequiresForwardSecrecy</key>
+						<false/>
+					</dict>
+				 </dict>
+			</dict>
+		</config-file>
+	</platform>
+	
+	<info>
+This plugin is only applicable for the cordova-ios.
+	</info>
+
+</plugin>
