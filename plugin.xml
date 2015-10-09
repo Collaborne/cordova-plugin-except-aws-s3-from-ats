@@ -8,7 +8,7 @@
 	<keywords>cordova,phonegap,ats,aws,s3,policy</keywords>
 
 	<engines>
-		<engine name="cordova-ios" />
+		<engine name="cordova-ios" version=">=3.5.0" />
 	</engines>
 
 	<platform name="ios">

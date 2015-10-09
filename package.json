@@ -21,7 +21,7 @@
 	engines: [
 		{
 			name: "cordova-ios",
-			version: ">=3.0.0-dev"
+			version: ">=3.5.0"
 		}
 	],
 	author: "Ronny Roeller (Collaborne)",
