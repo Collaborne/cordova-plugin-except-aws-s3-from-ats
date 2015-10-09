@@ -1,6 +1,6 @@
 {
 	"name": "cordova-plugin-except-aws-s3-from-ats",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"description": "Cordova plugin that excepts access to S3 from App Transport Security (iOS9)",
 	"cordova": {
 		"platforms": [ "ios" ]
