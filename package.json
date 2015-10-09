@@ -1,0 +1,29 @@
+{
+	name: "cordova-plugin-except-aws-s3-from-ats",
+	version: "0.0.1",
+	description: "Cordova plugin that excepts access to S3 from App Transport Security (iOS9)",
+	cordova: {
+		platforms: [ "ios" ]
+	},
+	repository: {
+		type: "git",
+		url: "https://github.com/Collaborne/cordova-plugin-except-aws-s3-from-ats"
+	},
+	keywords: [
+		"cordova",
+		"whitelist",
+		"ats",
+		"aws",
+		"s3",
+		"ecosystem:cordova",
+		"cordova-ios"
+	],
+	engines: [
+		{
+			name: "cordova-ios",
+			version: ">=3.0.0-dev"
+		}
+	],
+	author: "Ronny Roeller (Collaborne)",
+	license: "Apache 2.0"
+}
