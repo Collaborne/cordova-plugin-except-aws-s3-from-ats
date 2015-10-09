@@ -3,7 +3,10 @@ Cordova plugin that excepts access to S3 from App Transport Security (iOS9)
 
 # Background
 iOS9 introduced strict transport security rules ([ATS](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/)) which rejects the current S3 certificates. This blocks all
-access from Cordova based apps to AWS S3, e.g. `<img src="https://xxx.s3.amazonaws.com/my-image.png" />` won't load.
+access from Cordova based apps to AWS S3. For example the following image won't load:
+```html
+<img src="https://xxx.s3.amazonaws.com/my-image.png" />
+```
 
 AWS recommends to except the S3 domain via the -Info.plist ([link](https://forums.aws.amazon.com/thread.jspa?threadID=215371)):
 
