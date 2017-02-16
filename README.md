@@ -1,5 +1,7 @@
 # cordova-plugin-except-aws-s3-from-ats [![npm version](https://badge.fury.io/js/cordova-plugin-except-aws-s3-from-ats.svg)](http://badge.fury.io/js/cordova-plugin-except-aws-s3-from-ats)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Collaborne/cordova-plugin-except-aws-s3-from-ats.svg)](https://greenkeeper.io/)
+
 Cordova plugin that excepts access to S3 from App Transport Security (iOS9)
 
 ## Background
